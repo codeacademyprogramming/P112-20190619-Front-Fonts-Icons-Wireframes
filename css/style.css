@@ -1,0 +1,54 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.demo {
+    height: 200px;
+    max-width: 300px;
+    background-color: darkmagenta;
+    margin: 50px auto;
+    padding: 20px;
+    border: 20px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 5px;
+    outline-offset: 30px;
+}
+
+.demo:first-child {
+    outline-color: yellow;
+
+}
+
+.demo:nth-child(3n+1){
+    background-color: lawngreen;
+}
+
+.para{
+    border: 1px solid red;
+    font-weight: 900;
+}
+
+.para2{
+    font-family: 'p112', sans-serif;
+}
+h1 {
+    text-shadow: 30px 2px red;
+  }
+
+.search-icon {
+    color: red;
+    background-color: blue;
+    padding: 20px;
+}
+
+.test {
+    width: 500px;
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }
